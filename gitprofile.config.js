@@ -2,51 +2,52 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'Dotoling', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
+    limit: 5, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
+    linkedin: '',
+    twitter: '',
+    mastodon: '',
+    facebook: 'hegnut',
+    instagram: 'kkwak_do',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // format: userid/username
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://scg.skku.ac.kr/',
+    phone: '010-8490-7667',
+    email: 'hegnut5859@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/17MABvonPmhZlg6szCya2QeXB3WbMXxex/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C++',
+    'Python',
+    'Kotlin',
+    'Java',
     'JavaScript',
+    'TypeScript',
     'React.js',
     'Node.js',
     'Nest.js',
+    'Next.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
   ],
+  /*
   experiences: [
     {
       company: 'Company Name',
@@ -63,46 +64,48 @@ const config = {
       companyLink: 'https://example.com',
     },
   ],
-  /* certifications: [
+  */
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: '광학 암호통신 시스템의 광학 암호통신 방법',
+      body: 'METHOD OF CRYPTOGRAPHIC COMMUNICATION USING OPTICAL ELEMENT BY CRYPTOGRAPHIC COMMUNICATION SYSTEM USING OPTICAL ELEMENT',
+      year: 'August 2020',
+      link: 'https://drive.google.com/file/d/1XZqF5jv49Y1UpljekGKkjeaVQ2HWfJ7g/view?usp=sharing'
     },
-  ], */
+  ], 
   education: [
     {
-      institution: 'Institution Name',
+      institution: 'Chungbuk Science High School',
       degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      from: '2016',
+      to: '2018',
     },
     {
-      institution: 'Institution Name',
+      institution: 'Sungkyunkwan University',
       degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      from: '2019',
+      to: '2023',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Sungkyunkwan University CS Homepage',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Sungkyunkwan University Official Computer Science page',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://cs.skku.edu/ko/',
     },
     {
-      title: 'Project Name',
+      title: 'S-top Home page',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Sungkyunkwan University Official S-top page',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://s-top.cs.skku.edu/s-top/6',
     },
   ],
+  /*
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
@@ -117,12 +120,13 @@ const config = {
     id: '',
     snippetVersion: 6,
   },
+  */
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
