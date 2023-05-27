@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'Dotoling', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 5, // How many projects to display.
+    limit: 10, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -94,14 +94,14 @@ const config = {
       title: 'Sungkyunkwan University CS Homepage',
       description:
         'Sungkyunkwan University Official Computer Science page',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://cs.skku.edu/gp/_nuxt/img/58895b1.jpg',
       link: 'https://cs.skku.edu/ko/',
     },
     {
       title: 'S-top Home page',
       description:
         'Sungkyunkwan University Official S-top page',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://s-top.cs.skku.edu/s-top/_nuxt/img/bf23b77.png',
       link: 'https://s-top.cs.skku.edu/s-top/6',
     },
   ],
